@@ -1,0 +1,11 @@
+name: LeeplePlugin
+main: com.leeple.network.Main
+author: Leeple
+description: leeple network plugin
+
+version: 0.1
+api-version: 1.19
+commands:
+  menu:
+    description: menu command
+    aliases: [메뉴]

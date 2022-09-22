@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TeachMyJava:jar">
+    <output-path>$USER_HOME$/Desktop/새 폴더</output-path>
+    <root id="archive" name="TeachMyJava.jar">
+      <element id="module-output" name="TeachMyJava.main" />
+    </root>
+  </artifact>
+</component>
