@@ -11,6 +11,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.Arrays;
 
 public class ItemManager implements Listener {
+    public static ItemStack enchantDia;
+
     private static ItemStack builditem(Material type, int amount, String displayName, String... lore) {
         ItemStack stack = new ItemStack(type, amount);
         ItemMeta meta = stack.getItemMeta();

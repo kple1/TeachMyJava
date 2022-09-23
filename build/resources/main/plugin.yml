@@ -8,5 +8,6 @@ api-version: 1.19
 commands:
   menu:
     description: menu command
-    aliases:
-      - menu
+    aliases: [메뉴]
+  dia:
+    description: dia command
