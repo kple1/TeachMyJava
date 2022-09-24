@@ -1,7 +1,7 @@
-package commands;
+package com.leeple.network.commands;
 
 import com.leeple.network.Main;
-import inventory.Gui;
+import com.leeple.network.inventory.Gui;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

@@ -1,4 +1,4 @@
-package commands;
+package com.leeple.network.commands;
 
 import com.leeple.network.Main;
 import com.leeple.network.event.ItemManager;

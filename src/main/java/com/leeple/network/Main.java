@@ -4,9 +4,9 @@ import com.leeple.network.event.ItemManager;
 import com.leeple.network.event.JoinQuitMessage;
 import com.leeple.network.event.LeepleEvent;
 import com.leeple.network.utils.ColorUtils;
-import commands.CustomEnchant;
-import commands.Menu;
-import inventory.Gui;
+import com.leeple.network.commands.CustomEnchant;
+import com.leeple.network.commands.Menu;
+import com.leeple.network.inventory.Gui;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
