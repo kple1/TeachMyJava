@@ -9,5 +9,6 @@ commands:
   menu:
     description: menu command
     aliases: [메뉴]
-  dia:
-    description: dia command
+  CustomEnchant:
+    description: CustomEnchant
+    aliases: [cm]
