@@ -8,6 +8,7 @@ import com.leeple.network.commands.CustomEnchant;
 import com.leeple.network.commands.Menu;
 import com.leeple.network.inventory.Gui;
 import org.bukkit.Bukkit;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -27,7 +28,7 @@ public class Main extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new ItemManager(), this);
         Bukkit.getPluginManager().registerEvents(new Menu(this), this);
         Bukkit.getPluginManager().registerEvents(new CustomEnchant(this), this);
-        Bukkit.getPluginManager().registerEvents(new Gui(this), this);
+        Bukkit.getPluginManager().registerEvents(new Gui(this, null), this);
         Objects.requireNonNull(getServer().getPluginCommand("menu")).setExecutor(new Menu(this));
         Objects.requireNonNull(getServer().getPluginCommand("CustomEnchant")).setExecutor(new CustomEnchant(this));
     }

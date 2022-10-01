@@ -12,8 +12,9 @@ public class Gui implements Listener {
     private final Inventory inv;
     private Main plugin;
 
-    public Gui(Main plugin) {
+    public Gui(Main plugin, Inventory inv) {
         this.plugin = plugin;
+        this.inv = inv;
     }
 
     private void initItemSetting() {
